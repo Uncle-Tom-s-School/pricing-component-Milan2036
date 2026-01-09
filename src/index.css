@@ -21,3 +21,46 @@
   background-position-x: right;
   background-position-y: bottom;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5c400;
+}
+
+.pricing-wrapper {
+  min-height: 100vh;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  width: 260px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card--highlight {
+  background: #1e90ff;
+  color: white;
+  transform: scale(1.05);
+}
+
+.card button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+  background: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+.card--highlight button {
+  background: white;
+  color: #1e90ff;
+}
